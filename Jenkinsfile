@@ -9,12 +9,12 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'It is multi branch pipeline ..'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'Deploying multi branch pipeline ....'
             }
         }
     }
